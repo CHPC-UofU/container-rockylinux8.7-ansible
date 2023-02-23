@@ -26,6 +26,7 @@ RUN dnf -y install rpm dnf-plugins-core && \
       python3 \
       python3-pip \
       python3-pyyaml \
+      selinux-policy-minimum \
       sudo \
       which && \
     dnf clean all
